@@ -25,10 +25,26 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+    puzzle.cpp \
+    position.cpp \
+    game.cpp \
+    player.cpp \
+    board.cpp \
+    dialog.cpp \
+    configuration.cpp
 
 HEADERS += \
-        mainwindow.h
+    puzzle.h \
+    position.h \
+    swapable.h \
+    game.h \
+    player.h \
+    board.h \
+    dialog.h \
+    configuration.h
 
-FORMS += \
-        mainwindow.ui
+FORMS +=\
+    dialog.ui
+
+RESOURCES += \
+    qrc.qrc
