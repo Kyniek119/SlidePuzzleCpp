@@ -6,8 +6,8 @@ Player::Player(){
     setFlag(QGraphicsItem::ItemIsFocusable);
 }
 
-void Player::keyPressEvent(QKeyEvent * event){
-    /*if(event->key() == Qt::Key_Up){
+/*void Player::keyPressEvent(QKeyEvent * event){
+    if(event->key() == Qt::Key_Up){
         if(swapPossibleUp){
             swap(getUpElement());
         }
@@ -23,6 +23,6 @@ void Player::keyPressEvent(QKeyEvent * event){
         if(swapPossible){
             swap(getDownElement());
         }
-    }*/
+    }
     qDebug() << "Key pressed. :)";
-}
+}*/
